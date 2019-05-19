@@ -7,7 +7,7 @@ This is the merchandise distribution system for BPHC, with a centralised databas
 Clone the repository and cd into the folder.
 Run the command `pip3 install -r requirements.txt`
 
-Then go to the [RethinkDB Website]([https://www.rethinkdb.com/docs/install/](https://www.rethinkdb.com/docs/install/)) and install the driver application for your operating system.
+Then go to the [RethinkDB Website](https://www.rethinkdb.com/docs/install/) and install the driver application for your operating system.
 
 ## Running the server
 
