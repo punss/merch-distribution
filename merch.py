@@ -22,10 +22,10 @@ while True:
                     size=="XS" or size=="S" or size=="M" or size=="L"
                     or size=="XL" or size=="XXL" or size=="XXXL"
                     ):
-                    """print (size)"""
+                    # print (size)
                     if (int(data[person][size])>0):
                         print (size + ": " +data[person][size])
-                        
+
     if (count>0):
         dist = input("Given? ")
         if (dist == "Y" or dist == "y"):
