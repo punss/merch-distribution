@@ -25,4 +25,8 @@ Then, in a terminal window different from the one that has the server running, r
 
 The database with the details should now be ready.
 
+## Known Errors
+
+In some cases, despite installing the rethinkdb module from pip, it still might say module not found. In this case, `pip3 uninstall rethinkdb` and then install the module by cloning the GitHub repository for the module and running `setup.py`.
+
 
