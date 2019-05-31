@@ -2,10 +2,14 @@ import rethinkdb as rdb
 import json
 import sys
 
-r = rdb.RethinkDB()
-conn = r.connect("192.168.0.102",28015).repl()
+if len(sys.argv) < 3:
+    print("Use python3 maketable.py <ip address> </path/to/tshirt.txt/>")
+    exit(0)
 
-with open(sys.argv[1],"r") as f:
+r = rdb.RethinkDB()
+conn = r.connect(sys.argv[1], 28015).repl()
+
+with open(sys.argv[2], "r") as f:
     data = json.load(f)
 
 r.db("test").table_create("tshirts").run(conn)
