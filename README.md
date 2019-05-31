@@ -27,6 +27,6 @@ The database with the details should now be ready.
 
 ## Known Errors
 
-In some cases, despite installing the rethinkdb module from pip, it still might say module not found. In this case, `pip3 uninstall rethinkdb` and then install the module by cloning the GitHub repository for the module and running `setup.py`.
+In some cases, despite installing the rethinkdb module from pip, it still might say module not found. In this case, you will have to install the module by cloning the [GitHub repository](https://github.com/rethinkdb/rethinkdb-python) and running `python3 setup.py install`.
 
 
